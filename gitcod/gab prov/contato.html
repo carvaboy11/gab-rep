@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="jogos.html">Jogos de Tabuleiro</a></li>
+                <li><a href="rpg.html">RPG de Mesa</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="artigos.html">Artigos</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <h1>Contato</h1>
+        <form id="contact-form">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="topic">Tópico:</label>
+            <select id="topic" name="topic">
+                <option value="rpg">RPG</option>
+                <option value="jogos">Jogos de Tabuleiro</option>
+                <option value="geral">Geral</option>
+            </select>
+
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <label>
+                <input type="checkbox" name="subscribe"> Quero receber novidades.
+            </label>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 RPG e Jogos de Tabuleiro</p>
+        <a href="#top">Voltar ao topo</a>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
